@@ -6,7 +6,7 @@ let user = {
   age: 37,
 };
 
-fetch('https://reqres.in/api', {
+fetch('https://reqres.in/api/users', {
   method: 'POST',
   body: JSON.stringify(user), // data
   headers: {
